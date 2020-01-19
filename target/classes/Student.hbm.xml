@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+     <class name="org.abhi.it.Hibernate.Student" table="TB_Student">
+     <id name="sno" column="sno" type="integer" length="4"></id>
+     <property name= "sname" column="sname" type="string" length="20"></property>
+     <property name= "semail" column="semail" type="string" length="20"></property>
+     <property name= "smobile" column="smobile" type="string" length="20"></property>     
+     </class>
+</hibernate-mapping>
